@@ -2,20 +2,20 @@
 <html lang="zh-CN">
 <head>
   <meta charset="UTF-8">
-  <title>Categories - 小白初来</title>
+  <title>TestBlog - 小白初来</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=3, minimum-scale=1">
   
-  <meta name="description" content="Categories">
+  <meta name="description" content="这是一篇测试博客 今日任务： ##洗澡## ###校友邦日志&#43;周志### 王者上分（不重要） 思考人生 考虑未来 这是一个表格 完结散花》》》》》》》》》》">
   
-  <meta itemprop="name" content="Categories - 小白初来">
-  <meta itemprop="description" content="Categories">
+  <meta itemprop="name" content="TestBlog - 小白初来">
+  <meta itemprop="description" content="这是一篇测试博客 今日任务： ##洗澡## ###校友邦日志&#43;周志### 王者上分（不重要） 思考人生 考虑未来 这是一个表格 完结散花》》》》》》》》》》">
   <meta itemprop="image" content="https://qianlong98.github.io/img/author.jpg">
   <meta name="twitter:card" content="summary" />
   <meta name="twitter:site" content="@qianlong98" />
-  <meta name="twitter:title" content="Categories - 小白初来" />
+  <meta name="twitter:title" content="TestBlog - 小白初来" />
   
   <meta name="twitter:description" content="">
-  <link rel="alternate" href="https://qianlong98.github.io/feed.xml" title="小白初来" type="application/rss+xml"/>
+  
   <link rel="shortcut icon" href="https://qianlong98.github.io/img/favicon.ico"/>
   <link rel="apple-touch-icon" href="https://qianlong98.github.io/apple-touch-icon.png" />
   <link rel="apple-touch-icon-precomposed" href="https://qianlong98.github.io/apple-touch-icon.png" />
@@ -60,9 +60,109 @@
 
   </header>
   <div id="container">
-    <div id="main">
-      
+    <div id="main" class="post" itemscope itemprop="blogPost">
+	<article itemprop="articleBody">
+    <header class="article-info clearfix">
+  <h1 itemprop="name">
+      <a href="https://qianlong98.github.io/post/testblog/" title="TestBlog" itemprop="url">TestBlog</a>
+  </h1>
+  <p class="article-author">By
+    
+      <a href="https://github.com/qianlong98/qianlong98.github.io" title="">you</a>
+    
+  </p>
+  <p class="article-time">
+    <time datetime="2020-09-26 13:00:27 &#43;0800 CST" itemprop="datePublished">2020年09月26日</time>
+  </p>
+</header>
+
+	<div class="article-content">
+    
+    <h1 id="这是一篇测试博客">这是一篇测试博客</h1>
+<p>今日任务：</p>
+<pre><code>
+</code></pre><p>##洗澡##</p>
+<p><code>###校友邦日志+周志###</code></p>
+<p>王者上分（不重要）</p>
+<p><code>思考人生 考虑未来 </code></p>
+<p><img src="https://gitee.com/qianlong98/blogimage/raw/master/img/20200926130523.png" alt=""></p>
+<table>
+<thead>
+<tr>
+<th>这是一个表格</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>完结散花》》》》》》》》》》》》》》》》》》》》》》》》</td>
+</tr>
+</tbody>
+</table>
+
+    
+	</div>
+  <footer class="article-footer clearfix">
+  
+
+<div class="article-tags">
+  <span></span>
+  
+  <a href="https://qianlong98.github.io/tags/task">task</a>
+  
+  <a href="https://qianlong98.github.io/tags/life">life</a>
+  
+</div>
+
+
+
+
+
+  <div class="article-share" id="share">
+    <div data-url="https://qianlong98.github.io/post/testblog/" data-title="TestBlog" data-tsina="1816308191" class="share clearfix">
     </div>
+  </div>
+</footer>
+
+	</article>
+  
+
+
+<section class="comment">
+<div id="disqus_thread"></div>
+</section>
+<script>
+  <!-- detect whether Disuqs can load -->
+  var xhr = new XMLHttpRequest();
+  xhr.open('GET', '//disqus.com/next/config.json?' + new Date().getTime(), true);
+  xhr.timeout = 3000; 
+
+  xhr.onload = function() { 
+
+
+var disqus_config = function () {
+this.page.url = "https://qianlong98.github.io/post/testblog/";
+this.page.identifier = "https://qianlong98.github.io/post/testblog/";
+};
+(function() { 
+var d = document, s = d.createElement('script');
+
+s.src = '//qianlong98.disqus.com/embed.js';
+
+s.setAttribute('data-timestamp', +new Date());
+(d.head || d.body).appendChild(s);
+})();
+}
+  xhr.ontimeout = function() {
+  <!-- cannot load Disqus, skip it. -->
+  return;
+}
+xhr.send(null);
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+
+
+</div>
+
     <div class="openaside"><a class="navbutton" href="#" title="显示侧边栏"></a></div>
 <div id="asidepart">
 <div class="closeaside"><a class="closebutton" href="#" title="隐藏侧边栏"></a></div>
@@ -121,10 +221,6 @@
 
 
   
-<div class="rsspart">
-  <a rel="nofollow" href="https://qianlong98.github.io/feed.xml" type="application/rss+xml" target="_blank">RSS 订阅</a>
-</div>
-
 
 </aside>
 </div>
@@ -210,6 +306,38 @@ $(document).ready(function(){
 
 <script type="text/javascript">
 $(document).ready(function(){
+  var ai = $('.article-content>iframe'),
+      ae = $('.article-content>embed'),
+      t  = $('#toc'),
+      h  = $('article h2')
+      ah = $('article h2'),
+      ta = $('#toc.toc-aside'),
+      o  = $('.openaside'),
+      c  = $('.closeaside');
+  if(ai.length>0){
+    ai.wrap('<div class="video-container" />');
+  };
+  if(ae.length>0){
+   ae.wrap('<div class="video-container" />');
+  };
+  if(ah.length==0){
+    t.css('display','none');
+  }else{
+    c.click(function(){
+      ta.css('display', 'block').addClass('fadeIn');
+    });
+    o.click(function(){
+      ta.css('display', 'none');
+    });
+    $(window).scroll(function(){
+      ta.css("top",Math.max(140,320-$(this).scrollTop()));
+    });
+  };
+});
+</script>
+
+<script type="text/javascript">
+$(document).ready(function(){
   var $this = $('.share'),
       url = $this.attr('data-url'),
       encodedUrl = encodeURIComponent(url),
@@ -236,6 +364,27 @@ $(document).ready(function(){
 });
 </script>
 
+
+<link rel="stylesheet" href="https://qianlong98.github.io/fancybox/jquery.fancybox.css" media="screen" type="text/css">
+<script src="https://qianlong98.github.io/fancybox/jquery.fancybox.pack.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){
+  $('.article-content').each(function(i){
+    $(this).find('img').each(function(){
+      if ($(this).parent().hasClass('fancybox')) return;
+      var alt = this.alt;
+      if (alt) $(this).after('<span class="caption">' + alt + '</span>');
+      $(this).wrap('<a href="' + this.src + '" title="' + alt + '" class="fancybox"></a>');
+    });
+    $(this).find('.fancybox').each(function(){
+      $(this).attr('rel', 'article' + i);
+    });
+  });
+  if($.fancybox){
+    $('.fancybox').fancybox();
+  }
+});
+</script>
 
 
 

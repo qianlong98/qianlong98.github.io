@@ -1,56 +1,18 @@
 <!DOCTYPE HTML>
-<html lang="en-us">
+<html lang="zh-CN">
 <head>
   <meta charset="UTF-8">
-  <title>git使用教程 - My New Hugo Site</title>
+  <title>git使用教程 - 小白初来</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=3, minimum-scale=1">
   
-  <meta name="description" content="1.Git简介
-==开心吗==
-git是目前世界上最先进的分布式版本控制系统，在处理各种项目时都十分高效，而且非常的高大上。
-SVN是集中式版本控制系统，版本库是集中放在中央服务器的，而干活的时候，用的都是自己的电脑，所以首先要从中央服务器哪里得到最新的版本，然后干活，干完后，需要把自己做完的活推送到中央服务器。而且集中式版本控制系统是必须联网才能工作。
-Git是分布式版本控制系统，它就没有中央服务器的，每个人的电脑就是一个完整的版本库，这样，工作的时候就不需要联网了，因为版本都是在自己的电脑上。
-2.Git安装（仅列出在Windows系统下的安装过程）
-打开Git官网下载安装程序，然后按照默认选项安装即可。
-安装完成后，打开Git bash软件，弹出一个类似cmd的命令行窗口，证明安装成功。
-安装完成后，需要进行设置，在命令行输入以下代码：
-$ git config --global user.name &quot;Your Name&quot; $ git config --global user.email &quot;email@example.com&quot;  顾名思义，这是设置你的名字和Email地址。
-我们可以查看一下用户名和密码：
-$ git config user.name $ git config user.email  假如我们这时候报错，证明Git的用户名和密码没有配置成功，我们还可以这样做：
-在用户主目录下找到 .git 文件夹：
-然后打开 config 文件，这是专门用来配置和读取相应的工作环境变量的，在里面加上如图所示内容：
-这样也就完成了对Git用户名和邮箱的配置。
-3.创建版本库
-版本库(repository)也叫仓库，可以看做一个目录，这个目录里的所以文件都由Git进行管理，每个文件的修改、删除，Git都能跟踪。
-1.选择一个合适的地方，创建一个空目录：
-$ mkdir learngit //创建一个名叫learngit的空目录 $ cd learngit //把learngit设置为当前目录 $ pwd //查看当前目录 /c/Users/Administrator/learngit  如果使用Windows系统，要保证目录名不包含中文。
-2.通过如下命令把这个目录变成Git可以管理的仓库：
-$ git init Initialized empty Git repository in /Users/Administrator/learngit/.git/  这样Git就把仓库建好啦，我们可以看到在当前目录下多了一个 .">
+  <meta name="description" content="1.Git简介 ==开心吗== git是目前世界上最先进的分布式版本控制系统，在处理各种项目时都十分高效，而且非常的高大上。 SVN是集中式版本控">
   
-  <meta itemprop="name" content="git使用教程 - My New Hugo Site">
-  <meta itemprop="description" content="1.Git简介
-==开心吗==
-git是目前世界上最先进的分布式版本控制系统，在处理各种项目时都十分高效，而且非常的高大上。
-SVN是集中式版本控制系统，版本库是集中放在中央服务器的，而干活的时候，用的都是自己的电脑，所以首先要从中央服务器哪里得到最新的版本，然后干活，干完后，需要把自己做完的活推送到中央服务器。而且集中式版本控制系统是必须联网才能工作。
-Git是分布式版本控制系统，它就没有中央服务器的，每个人的电脑就是一个完整的版本库，这样，工作的时候就不需要联网了，因为版本都是在自己的电脑上。
-2.Git安装（仅列出在Windows系统下的安装过程）
-打开Git官网下载安装程序，然后按照默认选项安装即可。
-安装完成后，打开Git bash软件，弹出一个类似cmd的命令行窗口，证明安装成功。
-安装完成后，需要进行设置，在命令行输入以下代码：
-$ git config --global user.name &quot;Your Name&quot; $ git config --global user.email &quot;email@example.com&quot;  顾名思义，这是设置你的名字和Email地址。
-我们可以查看一下用户名和密码：
-$ git config user.name $ git config user.email  假如我们这时候报错，证明Git的用户名和密码没有配置成功，我们还可以这样做：
-在用户主目录下找到 .git 文件夹：
-然后打开 config 文件，这是专门用来配置和读取相应的工作环境变量的，在里面加上如图所示内容：
-这样也就完成了对Git用户名和邮箱的配置。
-3.创建版本库
-版本库(repository)也叫仓库，可以看做一个目录，这个目录里的所以文件都由Git进行管理，每个文件的修改、删除，Git都能跟踪。
-1.选择一个合适的地方，创建一个空目录：
-$ mkdir learngit //创建一个名叫learngit的空目录 $ cd learngit //把learngit设置为当前目录 $ pwd //查看当前目录 /c/Users/Administrator/learngit  如果使用Windows系统，要保证目录名不包含中文。
-2.通过如下命令把这个目录变成Git可以管理的仓库：
-$ git init Initialized empty Git repository in /Users/Administrator/learngit/.git/  这样Git就把仓库建好啦，我们可以看到在当前目录下多了一个 .">
+  <meta itemprop="name" content="git使用教程 - 小白初来">
+  <meta itemprop="description" content="1.Git简介 ==开心吗== git是目前世界上最先进的分布式版本控制系统，在处理各种项目时都十分高效，而且非常的高大上。 SVN是集中式版本控">
   <meta itemprop="image" content="https://qianlong98.github.io/img/author.jpg">
-  
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:site" content="@qianlong98" />
+  <meta name="twitter:title" content="git使用教程 - 小白初来" />
   
   <meta name="twitter:description" content="">
   
@@ -69,22 +31,26 @@ $ git init Initialized empty Git repository in /Users/Administrator/learngit/.gi
   <header>
     <div>
   <div id="imglogo">
-    <a href="https://qianlong98.github.io/"><img src='https://qianlong98.github.io/img/logo.svg' alt="My New Hugo Site" title="My New Hugo Site"/></a>
+    <a href="https://qianlong98.github.io/"><img src='https://qianlong98.github.io/img/logo.svg' alt="小白初来" title="小白初来"/></a>
   </div>
   <div id="textlogo">
-    <h1 class="site-name"><a href="https://qianlong98.github.io/" title="My New Hugo Site">My New Hugo Site</a></h1>
-    <h2 class="blog-motto">awesome!</h2>
+    <h1 class="site-name"><a href="https://qianlong98.github.io/" title="小白初来">小白初来</a></h1>
+    <h2 class="blog-motto">subtitle</h2>
   </div>
   <div class="navbar"><a class="navbutton navmobile" href="#" title="menu"></a></div>
   <nav class="animated">
     <ul>
       
-      <li><a href="/">Home</a></li>
+      
+      <li><a href="/">首页</a></li>
+      
+      <li><a href="/about">关于</a></li>
+      
       
       <li>
         <form class="search" method="get" action="https://www.google.com/search">
           <div>
-            <input type="text" id="search" name="q" placeholder='Search'>
+            <input type="text" id="search" name="q" placeholder='搜索'>
           </div>
         </form>
       </li>
@@ -102,11 +68,11 @@ $ git init Initialized empty Git repository in /Users/Administrator/learngit/.gi
   </h1>
   <p class="article-author">By
     
-      <a href="" title="">you</a>
+      <a href="https://github.com/qianlong98/qianlong98.github.io" title="">you</a>
     
   </p>
   <p class="article-time">
-    <time datetime="2020-09-22 10:35:41 &#43;0800 CST" itemprop="datePublished">2020-09-22</time>
+    <time datetime="2020-09-22 10:35:41 &#43;0800 CST" itemprop="datePublished">2020年09月22日</time>
   </p>
 </header>
 
@@ -494,7 +460,7 @@ Branch 'master' set up to track remote branch 'master' from 'origin'.
 
 
   <div class="article-share" id="share">
-    <div data-url="https://qianlong98.github.io/post/blog/" data-title="git使用教程" data-tsina="" class="share clearfix">
+    <div data-url="https://qianlong98.github.io/post/blog/" data-title="git使用教程" data-tsina="1816308191" class="share clearfix">
     </div>
   </div>
 </footer>
@@ -503,12 +469,45 @@ Branch 'master' set up to track remote branch 'master' from 'origin'.
   
 
 
+<section class="comment">
+<div id="disqus_thread"></div>
+</section>
+<script>
+  <!-- detect whether Disuqs can load -->
+  var xhr = new XMLHttpRequest();
+  xhr.open('GET', '//disqus.com/next/config.json?' + new Date().getTime(), true);
+  xhr.timeout = 3000; 
+
+  xhr.onload = function() { 
+
+
+var disqus_config = function () {
+this.page.url = "https://qianlong98.github.io/post/blog/";
+this.page.identifier = "https://qianlong98.github.io/post/blog/";
+};
+(function() { 
+var d = document, s = d.createElement('script');
+
+s.src = '//qianlong98.disqus.com/embed.js';
+
+s.setAttribute('data-timestamp', +new Date());
+(d.head || d.body).appendChild(s);
+})();
+}
+  xhr.ontimeout = function() {
+  <!-- cannot load Disqus, skip it. -->
+  return;
+}
+xhr.send(null);
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+
 
 </div>
 
-    <div class="openaside"><a class="navbutton" href="#" title=""></a></div>
+    <div class="openaside"><a class="navbutton" href="#" title="显示侧边栏"></a></div>
 <div id="asidepart">
-<div class="closeaside"><a class="closebutton" href="#" title=""></a></div>
+<div class="closeaside"><a class="closebutton" href="#" title="隐藏侧边栏"></a></div>
 <aside class="clearfix">
   
 
@@ -517,10 +516,14 @@ Branch 'master' set up to track remote branch 'master' from 'origin'.
   
 
 <div class="tagslist">
-	<p class="asidetitle">Tags</p>
+	<p class="asidetitle">标签</p>
 		<ul class="clearfix">
       
 			<li><a href="https://qianlong98.github.io/tags/git" title="git">git<sup>1</sup></a></li>
+      
+			<li><a href="https://qianlong98.github.io/tags/life" title="life">life<sup>1</sup></a></li>
+      
+			<li><a href="https://qianlong98.github.io/tags/task" title="task">task<sup>1</sup></a></li>
       
 		</ul>
 </div>
@@ -529,12 +532,12 @@ Branch 'master' set up to track remote branch 'master' from 'origin'.
 
   
   <div class="archiveslist">
-    <p class="asidetitle">Archives</p>
+    <p class="asidetitle">归档</p>
     <ul class="archive-list">
       
       
       <li class="archive-list-item">
-        <a class="archive-list-link" href="https://qianlong98.github.io/post/#2020-09">2020年09月</a><span class="archive-list-count">2</span>
+        <a class="archive-list-link" href="https://qianlong98.github.io/post/#2020-09">2020年09月</a><span class="archive-list-count">3</span>
       </li>
       
     </ul>
@@ -545,10 +548,14 @@ Branch 'master' set up to track remote branch 'master' from 'origin'.
   
 
 <div class="tagcloudlist">
-  <p class="asidetitle">Tags Cloud</p>
+  <p class="asidetitle">标签云</p>
   <div class="tagcloudlist clearfix">
     
     <a href="https://qianlong98.github.io/tags/git" style="font-size: 12px;">git</a>
+    
+    <a href="https://qianlong98.github.io/tags/life" style="font-size: 12px;">life</a>
+    
+    <a href="https://qianlong98.github.io/tags/task" style="font-size: 12px;">task</a>
     
   </div>
 </div>
@@ -568,18 +575,18 @@ Branch 'master' set up to track remote branch 'master' from 'origin'.
     <div style='background:no-repeat url("https://qianlong98.github.io/img/author.jpg") left top;-webkit-background-size:6.875em 6.875em;-moz-background-size:6.875em 6.875em;background-size:6.875em 6.875em;' class="author" ></div>
   </div>
   <section class="info">
-    <p></p>
+    <p>Introduce1 <br/> Introduce2</p>
   </section>
   <div class="social-font clearfix">
-    <a href='http://weibo.com/coderzh' target="_blank" title="weibo"></a>
-    <a href='https://twitter.com/coderzh' target="_blank" title="twitter"></a>
-    <a href='https://github.com/coderzh' target="_blank" title="github"></a>
-    <a href='https://www.facebook.com/coderzh' target="_blank" title="facebook"></a>
-    <a href='https://www.linkedin.com/coderzh' target="_blank" title="linkedin"></a>
+    <a href='http://weibo.com/qianlong98' target="_blank" title="weibo"></a>
+    <a href='https://twitter.com/qianlong98' target="_blank" title="twitter"></a>
+    <a href='https://github.com/qianlong98' target="_blank" title="github"></a>
+    <a href='https://www.facebook.com/qianlong98' target="_blank" title="facebook"></a>
+    <a href='https://www.linkedin.com/qianlong98' target="_blank" title="linkedin"></a>
   </div>
   <p class="copyright">Powered by <a href="http://gohugo.io" target="_blank" title="hugo">hugo</a> and Theme by <a href="https://github.com/coderzh/hugo-pacman-theme" target="_blank" title="hugo-pacman-theme">hugo-pacman-theme</a> © 2020
     
-    <a href="https://qianlong98.github.io/" title="My New Hugo Site">My New Hugo Site</a>
+    <a href="https://qianlong98.github.io/" title="小白初来">小白初来</a>
     
   </p>
 </div>
@@ -699,6 +706,27 @@ $(document).ready(function(){
 });
 </script>
 
+
+<link rel="stylesheet" href="https://qianlong98.github.io/fancybox/jquery.fancybox.css" media="screen" type="text/css">
+<script src="https://qianlong98.github.io/fancybox/jquery.fancybox.pack.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){
+  $('.article-content').each(function(i){
+    $(this).find('img').each(function(){
+      if ($(this).parent().hasClass('fancybox')) return;
+      var alt = this.alt;
+      if (alt) $(this).after('<span class="caption">' + alt + '</span>');
+      $(this).wrap('<a href="' + this.src + '" title="' + alt + '" class="fancybox"></a>');
+    });
+    $(this).find('.fancybox').each(function(){
+      $(this).attr('rel', 'article' + i);
+    });
+  });
+  if($.fancybox){
+    $('.fancybox').fancybox();
+  }
+});
+</script>
 
 
 
