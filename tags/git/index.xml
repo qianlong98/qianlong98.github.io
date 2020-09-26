@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Git on My New Hugo Site</title>
+    <link>https://qianlong98.github.io/tags/git/</link>
+    <description>Recent content in Git on My New Hugo Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 22 Sep 2020 10:35:41 +0800</lastBuildDate><atom:link href="https://qianlong98.github.io/tags/git/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>git使用教程</title>
+      <link>https://qianlong98.github.io/post/blog/</link>
+      <pubDate>Tue, 22 Sep 2020 10:35:41 +0800</pubDate>
+      
+      <guid>https://qianlong98.github.io/post/blog/</guid>
+      <description>1.Git简介
+==开心吗==
+git是目前世界上最先进的分布式版本控制系统，在处理各种项目时都十分高效，而且非常的高大上。
+SVN是集中式版本控制系统，版本库是集中放在中央服务器的，而干活的时候，用的都是自己的电脑，所以首先要从中央服务器哪里得到最新的版本，然后干活，干完后，需要把自己做完的活推送到中央服务器。而且集中式版本控制系统是必须联网才能工作。
+Git是分布式版本控制系统，它就没有中央服务器的，每个人的电脑就是一个完整的版本库，这样，工作的时候就不需要联网了，因为版本都是在自己的电脑上。
+2.Git安装（仅列出在Windows系统下的安装过程）
+打开Git官网下载安装程序，然后按照默认选项安装即可。
+安装完成后，打开Git bash软件，弹出一个类似cmd的命令行窗口，证明安装成功。
+安装完成后，需要进行设置，在命令行输入以下代码：
+$ git config --global user.name &amp;quot;Your Name&amp;quot; $ git config --global user.email &amp;quot;email@example.com&amp;quot;  顾名思义，这是设置你的名字和Email地址。
+我们可以查看一下用户名和密码：
+$ git config user.name $ git config user.email  假如我们这时候报错，证明Git的用户名和密码没有配置成功，我们还可以这样做：
+在用户主目录下找到 .git 文件夹：
+然后打开 config 文件，这是专门用来配置和读取相应的工作环境变量的，在里面加上如图所示内容：
+这样也就完成了对Git用户名和邮箱的配置。
+3.创建版本库
+版本库(repository)也叫仓库，可以看做一个目录，这个目录里的所以文件都由Git进行管理，每个文件的修改、删除，Git都能跟踪。
+1.选择一个合适的地方，创建一个空目录：
+$ mkdir learngit //创建一个名叫learngit的空目录 $ cd learngit //把learngit设置为当前目录 $ pwd //查看当前目录 /c/Users/Administrator/learngit  如果使用Windows系统，要保证目录名不包含中文。
+2.通过如下命令把这个目录变成Git可以管理的仓库：
+$ git init Initialized empty Git repository in /Users/Administrator/learngit/.git/  这样Git就把仓库建好啦，我们可以看到在当前目录下多了一个 .</description>
+    </item>
+    
+  </channel>
+</rss>
