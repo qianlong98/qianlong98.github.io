@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on 花生帆</title>
+    <link>https://qianlong98.github.io/tags/</link>
+    <description>Recent content in Tags on 花生帆</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-CN</language>
+    <lastBuildDate>Sat, 26 Sep 2020 22:13:37 +0800</lastBuildDate><atom:link href="https://qianlong98.github.io/tags/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>blog</title>
+      <link>https://qianlong98.github.io/tags/blog/</link>
+      <pubDate>Sat, 26 Sep 2020 22:13:37 +0800</pubDate>
+      
+      <guid>https://qianlong98.github.io/tags/blog/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Git</title>
+      <link>https://qianlong98.github.io/tags/git/</link>
+      <pubDate>Tue, 22 Sep 2020 10:35:41 +0800</pubDate>
+      
+      <guid>https://qianlong98.github.io/tags/git/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

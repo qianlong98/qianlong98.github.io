@@ -5,10 +5,10 @@
   <title>windows从零搭建hugo博客 - 花生帆</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=3, minimum-scale=1">
   
-  <meta name="description" content="[toc] 写在前面的话 作为一个计算机专业的学生，平时没有好好学习，可又没想过转专业，听说程序员和博客很配，我早就想过搭建一个个人博客了，可是直到大四">
+  <meta name="description" content="写在前面的话 作为一个计算机专业的学生，平时没有好好学习，可又没想过转专业，听说程序员和博客很配，我早就想过搭建一个个人博客了，可是直到大四我">
   
   <meta itemprop="name" content="windows从零搭建hugo博客 - 花生帆">
-  <meta itemprop="description" content="[toc] 写在前面的话 作为一个计算机专业的学生，平时没有好好学习，可又没想过转专业，听说程序员和博客很配，我早就想过搭建一个个人博客了，可是直到大四">
+  <meta itemprop="description" content="写在前面的话 作为一个计算机专业的学生，平时没有好好学习，可又没想过转专业，听说程序员和博客很配，我早就想过搭建一个个人博客了，可是直到大四我">
   <meta itemprop="image" content="https://qianlong98.github.io/img/author.jpg">
   <meta name="twitter:card" content="summary" />
   <meta name="twitter:site" content="@qianlong98" />
@@ -35,7 +35,7 @@
   </div>
   <div id="textlogo">
     <h1 class="site-name"><a href="https://qianlong98.github.io/" title="花生帆">花生帆</a></h1>
-    <h2 class="blog-motto">subtitle</h2>
+    <h2 class="blog-motto">陆乾龙</h2>
   </div>
   <div class="navbar"><a class="navbutton navmobile" href="#" title="menu"></a></div>
   <nav class="animated">
@@ -78,8 +78,22 @@
 
 	<div class="article-content">
     
-    <p>[toc]</p>
-<hr>
+		<div class="toc-article">
+			<strong class="toc-title">文章目录</strong>
+      <nav id="TableOfContents">
+  <ul>
+    <li><a href="#写在前面的话">写在前面的话</a></li>
+    <li><a href="#一下载hugo">一、（下载hugo）</a></li>
+    <li><a href="#二生成站点">二、生成站点</a></li>
+    <li><a href="#三创建文章">三、创建文章</a></li>
+    <li><a href="#四下载主题">四、下载主题</a></li>
+    <li><a href="#五部署github-pages上">五、部署github pages上</a></li>
+    <li><a href="#六写博客">六、写博客</a></li>
+  </ul>
+</nav>
+		</div>
+    
+    <hr>
 <h2 id="写在前面的话">写在前面的话</h2>
 <p>作为一个计算机专业的学生，平时没有好好学习，可又没想过转专业，听说程序员和博客很配，我早就想过搭建一个个人博客了，可是直到大四我才真正动起手来。我是按照在bi站上的一个大神CodeSheep搭建博客的视频（https://www.bilibili.com/video/BV1q4411i7gL?t=477）操作的，可是对于我这种小白来说，他的教程不能算得上详细。。我在网上各种百度，各种操作，忙活了一星期才完成（别怕，是我太笨。。其实一个小时就能全搞定）。下面，我会把搭建博客的方法写下来，与网上各种方法不同的是，我这个真的算的上零基础，我会把中间会用到的各种工具下载使用链接都发过来（有的工具官网下载只有20KB，实在太慢，我会给网盘链接）。</p>
 <h2 id="一下载hugo">一、（下载hugo）</h2>
@@ -149,11 +163,11 @@
 <h2 id="五部署github-pages上">五、部署github pages上</h2>
 <p>前提：已<a href="https://github.com/">注册GitHub</a>，登录</p>
 <p>1、登录后，点击右上角，出现下拉菜单，点击 Your repositories 进入页面
-<img src="https://img2018.cnblogs.com/blog/488437/201908/488437-20190829162641399-1240861082.png" alt="img"></p>
+<img src="https://gitee.com/qianlong98/blogimage/raw/master/img/20200927130404.png" alt="img"></p>
 <p>2、点击 New</p>
-<p><img src="https://img2018.cnblogs.com/blog/488437/201908/488437-20190829162830662-722937324.png" alt="img"></p>
+<p><img src="https://gitee.com/qianlong98/blogimage/raw/master/img/20200927130419.png" alt="img"></p>
 <p>3、进入 Creat a new repository 页面
-<img src="https://img2018.cnblogs.com/blog/488437/201908/488437-20190829163516097-356793527.png" alt="img"></p>
+<img src="https://gitee.com/qianlong98/blogimage/raw/master/img/20200927130425.png" alt="img"></p>
 <p>4、图中的 yourname 要换成自己的github的用户名，即上图中Owner显示的用户名。最后点击Creat repository即完成</p>
 <p>站点目录**<code>config.toml</code>**中**<code>baseURL</code>**要换成自己建立的仓库，如baseURL = &ldquo;<a href="https://qianlong98.github.io/">https://yourname.github.io</a>&rdquo;</p>
 <p>进入<strong>站点根目录</strong>下，执行：</p>
@@ -317,7 +331,7 @@ xhr.send(null);
     <div style='background:no-repeat url("https://qianlong98.github.io/img/author.jpg") left top;-webkit-background-size:6.875em 6.875em;-moz-background-size:6.875em 6.875em;background-size:6.875em 6.875em;' class="author" ></div>
   </div>
   <section class="info">
-    <p>Introduce1 <br/> Introduce2</p>
+    <p>书山有路勤为径 <br/> 学海无涯苦作舟</p>
   </section>
   <div class="social-font clearfix">
     <a href='http://weibo.com/qianlong98' target="_blank" title="weibo"></a>
