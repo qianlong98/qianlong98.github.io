@@ -1,37 +1,28 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on 小白初来</title>
+    <title>Posts on 花生帆</title>
     <link>https://qianlong98.github.io/post/</link>
-    <description>Recent content in Posts on 小白初来</description>
+    <description>Recent content in Posts on 花生帆</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Sat, 26 Sep 2020 13:00:27 +0800</lastBuildDate><atom:link href="https://qianlong98.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 26 Sep 2020 22:13:37 +0800</lastBuildDate><atom:link href="https://qianlong98.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>TestBlog</title>
-      <link>https://qianlong98.github.io/post/testblog/</link>
-      <pubDate>Sat, 26 Sep 2020 13:00:27 +0800</pubDate>
+      <title>windows从零搭建hugo博客</title>
+      <link>https://qianlong98.github.io/post/windows%E4%BB%8E%E9%9B%B6%E6%90%AD%E5%BB%BAhugo%E5%8D%9A%E5%AE%A2/</link>
+      <pubDate>Sat, 26 Sep 2020 22:13:37 +0800</pubDate>
       
-      <guid>https://qianlong98.github.io/post/testblog/</guid>
-      <description>这是一篇测试博客 今日任务： ##洗澡## ###校友邦日志+周志### 王者上分（不重要） 思考人生 考虑未来 这是一个表格 完结散花》》》》》》》》》》</description>
-    </item>
-    
-    <item>
-      <title>First</title>
-      <link>https://qianlong98.github.io/post/first/</link>
-      <pubDate>Sat, 26 Sep 2020 12:34:26 +0800</pubDate>
-      
-      <guid>https://qianlong98.github.io/post/first/</guid>
-      <description></description>
+      <guid>https://qianlong98.github.io/post/windows%E4%BB%8E%E9%9B%B6%E6%90%AD%E5%BB%BAhugo%E5%8D%9A%E5%AE%A2/</guid>
+      <description>[toc] 写在前面的话 作为一个计算机专业的学生，平时没有好好学习，可又没想过转专业，听说程序员和博客很配，我早就想过搭建一个个人博客了，可是直到大四</description>
     </item>
     
     <item>
       <title>git使用教程</title>
-      <link>https://qianlong98.github.io/post/blog/</link>
+      <link>https://qianlong98.github.io/post/git%E4%BD%BF%E7%94%A8%E6%95%99%E7%A8%8B/</link>
       <pubDate>Tue, 22 Sep 2020 10:35:41 +0800</pubDate>
       
-      <guid>https://qianlong98.github.io/post/blog/</guid>
-      <description>1.Git简介 ==开心吗== git是目前世界上最先进的分布式版本控制系统，在处理各种项目时都十分高效，而且非常的高大上。 SVN是集中式版本控</description>
+      <guid>https://qianlong98.github.io/post/git%E4%BD%BF%E7%94%A8%E6%95%99%E7%A8%8B/</guid>
+      <description>1.Git简介 git是目前世界上最先进的分布式版本控制系统，在处理各种项目时都十分高效，而且非常的高大上。 SVN是集中式版本控制系统，版本库</description>
     </item>
     
   </channel>

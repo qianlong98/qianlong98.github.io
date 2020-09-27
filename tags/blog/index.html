@@ -2,17 +2,17 @@
 <html lang="zh-CN">
 <head>
   <meta charset="UTF-8">
-  <title>Posts - 花生帆</title>
+  <title>blog - 花生帆</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=3, minimum-scale=1">
   
-  <meta name="description" content="Posts">
+  <meta name="description" content="blog">
   
-  <meta itemprop="name" content="Posts - 花生帆">
-  <meta itemprop="description" content="Posts">
+  <meta itemprop="name" content="blog - 花生帆">
+  <meta itemprop="description" content="blog">
   <meta itemprop="image" content="https://qianlong98.github.io/img/author.jpg">
   <meta name="twitter:card" content="summary" />
   <meta name="twitter:site" content="@qianlong98" />
-  <meta name="twitter:title" content="Posts - 花生帆" />
+  <meta name="twitter:title" content="blog - 花生帆" />
   
   <meta name="twitter:description" content="">
   <link rel="alternate" href="https://qianlong98.github.io/feed.xml" title="花生帆" type="application/rss+xml"/>
@@ -69,15 +69,6 @@
     <h1 itemprop="name">windows从零搭建hugo博客</h1>
     <p itemprop="description">[toc] 写在前面的话 作为一个计算机专业的学生，平时没有好好学习，可又没想过转专业，听说程序员和博客很配，我早就想过搭建一个个人博客了，可是直到大四</p>
     <time datetime="2020-09-26 22:13:37 &#43;0800 CST" itemprop="datePublished">2020年09月26日</time>
-  </a>
-</section>
-
-      
-      <section class="post" itemscope itemprop="blogPost">
-    <a href="https://qianlong98.github.io/post/git%E4%BD%BF%E7%94%A8%E6%95%99%E7%A8%8B/" title="git使用教程" itemprop="url">
-    <h1 itemprop="name">git使用教程</h1>
-    <p itemprop="description">1.Git简介 git是目前世界上最先进的分布式版本控制系统，在处理各种项目时都十分高效，而且非常的高大上。 SVN是集中式版本控制系统，版本库</p>
-    <time datetime="2020-09-22 10:35:41 &#43;0800 CST" itemprop="datePublished">2020年09月22日</time>
   </a>
 </section>
 
@@ -227,38 +218,6 @@ $(document).ready(function(){
 
 <script type="text/javascript">
 $(document).ready(function(){
-  var ai = $('.article-content>iframe'),
-      ae = $('.article-content>embed'),
-      t  = $('#toc'),
-      h  = $('article h2')
-      ah = $('article h2'),
-      ta = $('#toc.toc-aside'),
-      o  = $('.openaside'),
-      c  = $('.closeaside');
-  if(ai.length>0){
-    ai.wrap('<div class="video-container" />');
-  };
-  if(ae.length>0){
-   ae.wrap('<div class="video-container" />');
-  };
-  if(ah.length==0){
-    t.css('display','none');
-  }else{
-    c.click(function(){
-      ta.css('display', 'block').addClass('fadeIn');
-    });
-    o.click(function(){
-      ta.css('display', 'none');
-    });
-    $(window).scroll(function(){
-      ta.css("top",Math.max(140,320-$(this).scrollTop()));
-    });
-  };
-});
-</script>
-
-<script type="text/javascript">
-$(document).ready(function(){
   var $this = $('.share'),
       url = $this.attr('data-url'),
       encodedUrl = encodeURIComponent(url),
@@ -285,27 +244,6 @@ $(document).ready(function(){
 });
 </script>
 
-
-<link rel="stylesheet" href="https://qianlong98.github.io/fancybox/jquery.fancybox.css" media="screen" type="text/css">
-<script src="https://qianlong98.github.io/fancybox/jquery.fancybox.pack.js"></script>
-<script type="text/javascript">
-$(document).ready(function(){
-  $('.article-content').each(function(i){
-    $(this).find('img').each(function(){
-      if ($(this).parent().hasClass('fancybox')) return;
-      var alt = this.alt;
-      if (alt) $(this).after('<span class="caption">' + alt + '</span>');
-      $(this).wrap('<a href="' + this.src + '" title="' + alt + '" class="fancybox"></a>');
-    });
-    $(this).find('.fancybox').each(function(){
-      $(this).attr('rel', 'article' + i);
-    });
-  });
-  if($.fancybox){
-    $('.fancybox').fancybox();
-  }
-});
-</script>
 
 
 
