@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Git on 代码L</title>
-    <link>https://qianlong98.github.io/tags/git/</link>
-    <description>Recent content in Git on 代码L</description>
+    <title>技术文章-转载 on 代码L</title>
+    <link>https://qianlong98.github.io/categories/%E6%8A%80%E6%9C%AF%E6%96%87%E7%AB%A0-%E8%BD%AC%E8%BD%BD/</link>
+    <description>Recent content in 技术文章-转载 on 代码L</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Tue, 22 Sep 2020 10:35:41 +0800</lastBuildDate><atom:link href="https://qianlong98.github.io/tags/git/feed.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 22 Sep 2020 10:35:41 +0800</lastBuildDate><atom:link href="https://qianlong98.github.io/categories/%E6%8A%80%E6%9C%AF%E6%96%87%E7%AB%A0-%E8%BD%AC%E8%BD%BD/feed.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>git使用教程</title>
       <link>https://qianlong98.github.io/post/git%E4%BD%BF%E7%94%A8%E6%95%99%E7%A8%8B/</link>
