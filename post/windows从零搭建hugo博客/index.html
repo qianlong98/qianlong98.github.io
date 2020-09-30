@@ -48,7 +48,7 @@
       
       
       <li>
-        <form class="search" method="get" action="https://www.baidu.com/search">
+        <form class="search" method="get" action="https://www.baidu.com/">
           <div>
             <input type="text" id="search" name="q" placeholder='搜索'>
           </div>
@@ -83,12 +83,16 @@
       <nav id="TableOfContents">
   <ul>
     <li><a href="#写在前面的话">写在前面的话</a></li>
-    <li><a href="#一下载hugo">一、（下载hugo）</a></li>
-    <li><a href="#二生成站点">二、生成站点</a></li>
-    <li><a href="#三创建文章">三、创建文章</a></li>
-    <li><a href="#四下载主题">四、下载主题</a></li>
-    <li><a href="#五部署github-pages上">五、部署github pages上</a></li>
-    <li><a href="#六写博客">六、写博客</a></li>
+    <li><a href="#下载hugo">下载hugo</a></li>
+    <li><a href="#生成站点">生成站点</a></li>
+    <li><a href="#创建文章">创建文章</a></li>
+    <li><a href="#下载主题">下载主题</a></li>
+    <li><a href="#部署github-pages上">部署github pages上</a></li>
+    <li><a href="#写博客">写博客</a>
+      <ul>
+        <li><a href="#在博客中插入图片">在博客中插入图片</a></li>
+      </ul>
+    </li>
   </ul>
 </nav>
 		</div>
@@ -96,7 +100,7 @@
     <hr>
 <h2 id="写在前面的话">写在前面的话</h2>
 <p>作为一个计算机专业的学生，平时没有好好学习，可又没想过转专业，听说程序员和博客很配，我早就想过搭建一个个人博客了，可是直到大四我才真正动起手来。我是按照在bi站上的一个大神CodeSheep搭建博客的视频（https://www.bilibili.com/video/BV1q4411i7gL?t=477）操作的，可是对于我这种小白来说，他的教程不能算得上详细。。我在网上各种百度，各种操作，忙活了一星期才完成（别怕，是我太笨。。其实一个小时就能全搞定）。下面，我会把搭建博客的方法写下来，与网上各种方法不同的是，我这个真的算的上零基础，我会把中间会用到的各种工具下载使用链接都发过来（有的工具官网下载只有20KB，实在太慢，我会给网盘链接）。</p>
-<h2 id="一下载hugo">一、（下载hugo）</h2>
+<h2 id="下载hugo">下载hugo</h2>
 <p>1、hugo官方下载地址https://github.com/gohugoio/hugo/releases</p>
 <p>这个很慢，所以（你懂得）</p>
 <p>链接：https://pan.baidu.com/s/1LJoRF1eA1u6GMHRRUnEnYg
@@ -109,7 +113,7 @@
 <p>$ <strong><code>hugo version</code></strong></p>
 <p>Hugo Static Site Generator v0.75.1-A4A7BAB7 windows/amd64 BuildDate: 2020-09-15T06:48:58Z　　显示该条即表示成功</p>
 </blockquote>
-<h2 id="二生成站点">二、生成站点</h2>
+<h2 id="生成站点">生成站点</h2>
 <blockquote>
 <p>进入<code>E:\hugo</code>下，打开命令窗口。(可用cmd，也可选择下载安装Git，推荐安装git，==<em><strong>后面也得用到</strong></em>==。<a href="https://blog.csdn.net/huangqqdy/article/details/83032408">下载安装教程</a>，这个兄弟也是让在官网下载，所以</p>
 </blockquote>
@@ -129,7 +133,7 @@
 <li>themes     (存放主题文件，每个主题都是一个独立的文件夹)</li>
 <li>config.toml  (网站配置文件)</li>
 </ul>
-<h2 id="三创建文章">三、创建文章</h2>
+<h2 id="创建文章">创建文章</h2>
 <p>进入<strong>站点根目录</strong><code>myblog</code>下，执行命令：</p>
 <blockquote>
 <p>$ <strong><code>hugo new post/test.md</code></strong></p>
@@ -139,7 +143,7 @@
 提取码：aoy4)，<strong>==ps.文件头部的draft要改为false，这样部署后才能看到文章。==</strong></p>
 <p>当前网站是没有任何内容的，需要下载个主题。</p>
 <p>（附上<a href="https://www.cnblogs.com/hider/p/11614688.html/" title="全网最全教程">Typora使用教程</a>）</p>
-<h2 id="四下载主题">四、下载主题</h2>
+<h2 id="下载主题">下载主题</h2>
 <blockquote>
 <p>$ <strong><code>git clone</code></strong> <a href="https://github.com/vaga/hugo-theme-m10c.git">https://github.com/vaga/hugo-theme-m10c.git</a> themes/m10c</p>
 <p>也可以直接下载压缩包解压到themes目录，我这里有几款主题，可以试一试：链接：https://pan.baidu.com/s/1MDU2yOb41jC88CjnePSJnQ
@@ -160,7 +164,7 @@
 <p>Web Server is available at http://localhost:1313/ (bind address 127.0.0.1) Press Ctrl+C to stop</p>
 </blockquote>
 <p>可访问：http://localhost:1313/ 查看效果</p>
-<h2 id="五部署github-pages上">五、部署github pages上</h2>
+<h2 id="部署github-pages上">部署github pages上</h2>
 <p>前提：已<a href="https://github.com/">注册GitHub</a>，登录</p>
 <p>1、登录后，点击右上角，出现下拉菜单，点击 Your repositories 进入页面
 <img src="https://gitee.com/qianlong98/blogimage/raw/master/img/20200927130404.png" alt="img"></p>
@@ -186,7 +190,7 @@
 <p>$ <strong><code>git push -u origin master</code></strong></p>
 </blockquote>
 <p>然后浏览器里访问：<a href="https://qianlong98.github.io/">https://yourname.github.io/</a> 即可看到刚刚搭建的博客。</p>
-<h2 id="六写博客">六、写博客</h2>
+<h2 id="写博客">写博客</h2>
 <p>后面自己再写博客或者有什么改动，就可以执行以下代码上传：</p>
 <hr>
 <blockquote>
@@ -201,7 +205,8 @@
 <p>$<strong><code> git push origin master</code></strong></p>
 </blockquote>
 <hr>
-<p>如果大家用typora编写博客插入图片不显示的话，下一篇我会继续分享。</p>
+<h3 id="在博客中插入图片">在博客中插入图片</h3>
+<p>​	<a href="https://blog.csdn.net/disILLL/article/details/103962241">==<strong>教程</strong>==</a></p>
 
     
 	</div>
@@ -355,10 +360,10 @@ xhr.send(null);
   </section>
   <div class="social-font clearfix">
     <a href='http://weibo.com/qianlong98' target="_blank" title="weibo"></a>
-    <a href='https://twitter.com/qianlong98' target="_blank" title="twitter"></a>
+    
     <a href='https://github.com/qianlong98' target="_blank" title="github"></a>
-    <a href='https://www.facebook.com/qianlong98' target="_blank" title="facebook"></a>
-    <a href='https://www.linkedin.com/qianlong98' target="_blank" title="linkedin"></a>
+    
+  
   </div>
   <p class="copyright">Powered by <a href="http://gohugo.io" target="_blank" title="hugo">hugo</a> and Theme by <a href="https://github.com/coderzh/hugo-pacman-theme" target="_blank" title="hugo-pacman-theme">hugo-pacman-theme</a> © 2020
     
