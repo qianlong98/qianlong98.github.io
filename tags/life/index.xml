@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>life on 小白初来</title>
+    <link>https://qianlong98.github.io/tags/life/</link>
+    <description>Recent content in life on 小白初来</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-CN</language>
+    <lastBuildDate>Sat, 26 Sep 2020 13:00:27 +0800</lastBuildDate><atom:link href="https://qianlong98.github.io/tags/life/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>TestBlog</title>
+      <link>https://qianlong98.github.io/post/testblog/</link>
+      <pubDate>Sat, 26 Sep 2020 13:00:27 +0800</pubDate>
+      
+      <guid>https://qianlong98.github.io/post/testblog/</guid>
+      <description>这是一篇测试博客 今日任务： ##洗澡## ###校友邦日志+周志### 王者上分（不重要） 思考人生 考虑未来 这是一个表格 完结散花》》》》》》》》》》</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -2,15 +2,17 @@
 <html lang="zh-CN">
 <head>
   <meta charset="UTF-8">
-  <title>git使用教程 - 代码L</title>
+  <title>git使用教程 - 小白初来</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=3, minimum-scale=1">
   
-  <meta name="description" content="1.Git简介 git是目前世界上最先进的分布式版本控制系统，在处理各种项目时都十分高效，而且非常的高大上。 SVN是集中式版本控制系统，版本库">
+  <meta name="description" content="1.Git简介 ==开心吗== git是目前世界上最先进的分布式版本控制系统，在处理各种项目时都十分高效，而且非常的高大上。 SVN是集中式版本控">
   
-  <meta itemprop="name" content="git使用教程 - 代码L">
-  <meta itemprop="description" content="1.Git简介 git是目前世界上最先进的分布式版本控制系统，在处理各种项目时都十分高效，而且非常的高大上。 SVN是集中式版本控制系统，版本库">
+  <meta itemprop="name" content="git使用教程 - 小白初来">
+  <meta itemprop="description" content="1.Git简介 ==开心吗== git是目前世界上最先进的分布式版本控制系统，在处理各种项目时都十分高效，而且非常的高大上。 SVN是集中式版本控">
   <meta itemprop="image" content="https://qianlong98.github.io/img/author.jpg">
-  
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:site" content="@qianlong98" />
+  <meta name="twitter:title" content="git使用教程 - 小白初来" />
   
   <meta name="twitter:description" content="">
   
@@ -29,11 +31,11 @@
   <header>
     <div>
   <div id="imglogo">
-    <a href="https://qianlong98.github.io/"><img src='https://qianlong98.github.io/img/logo.svg' alt="代码L" title="代码L"/></a>
+    <a href="https://qianlong98.github.io/"><img src='https://qianlong98.github.io/img/logo.svg' alt="小白初来" title="小白初来"/></a>
   </div>
   <div id="textlogo">
-    <h1 class="site-name"><a href="https://qianlong98.github.io/" title="代码L">代码L</a></h1>
-    <h2 class="blog-motto">-----Designed by 花生帆</h2>
+    <h1 class="site-name"><a href="https://qianlong98.github.io/" title="小白初来">小白初来</a></h1>
+    <h2 class="blog-motto">subtitle</h2>
   </div>
   <div class="navbar"><a class="navbutton navmobile" href="#" title="menu"></a></div>
   <nav class="animated">
@@ -62,11 +64,11 @@
 	<article itemprop="articleBody">
     <header class="article-info clearfix">
   <h1 itemprop="name">
-      <a href="https://qianlong98.github.io/post/git%E4%BD%BF%E7%94%A8%E6%95%99%E7%A8%8B/" title="git使用教程" itemprop="url">git使用教程</a>
+      <a href="https://qianlong98.github.io/post/blog/" title="git使用教程" itemprop="url">git使用教程</a>
   </h1>
   <p class="article-author">By
     
-      <a href="https://qianlong98.github.io/post/" title="代码L">代码L</a>
+      <a href="https://github.com/qianlong98/qianlong98.github.io" title="">you</a>
     
   </p>
   <p class="article-time">
@@ -76,31 +78,13 @@
 
 	<div class="article-content">
     
-		<div class="toc-article">
-			<strong class="toc-title">文章目录</strong>
-      <nav id="TableOfContents">
-  <ul>
-    <li><a href="#1git简介">1.Git简介</a></li>
-    <li><a href="#2git安装仅列出在windows系统下的安装过程">2.Git安装（仅列出在Windows系统下的安装过程）</a></li>
-    <li><a href="#3创建版本库">3.创建版本库</a></li>
-    <li><a href="#4修改文件">4.修改文件</a></li>
-    <li><a href="#5版本回退">5.版本回退</a></li>
-    <li><a href="#6工作区和暂存区">6.工作区和暂存区</a></li>
-    <li><a href="#7管理修改">7.管理修改</a></li>
-    <li><a href="#8撤销修改">8.撤销修改</a></li>
-    <li><a href="#9删除文件">9.删除文件</a></li>
-    <li><a href="#10远程仓库准备工作">10.远程仓库准备工作</a></li>
-    <li><a href="#11添加远程库">11.添加远程库</a></li>
-    <li><a href="#12从远程库克隆">12.从远程库克隆</a></li>
-  </ul>
-</nav>
-		</div>
-    
-    <h2 id="1git简介">1.Git简介</h2>
+    <p>1.Git简介</p>
+<p>==开心吗==</p>
+<p><img src="https://gitee.com/qianlong98/blogimage/raw/master/img/20200925083634.png" alt=""></p>
 <p>git是目前世界上最先进的分布式版本控制系统，在处理各种项目时都十分高效，而且非常的高大上。</p>
 <p>SVN是集中式版本控制系统，版本库是集中放在中央服务器的，而干活的时候，用的都是自己的电脑，所以首先要从中央服务器哪里得到最新的版本，然后干活，干完后，需要把自己做完的活推送到中央服务器。而且集中式版本控制系统是必须联网才能工作。</p>
 <p>Git是分布式版本控制系统，它就没有中央服务器的，每个人的电脑就是一个完整的版本库，这样，工作的时候就不需要联网了，因为版本都是在自己的电脑上。</p>
-<h2 id="2git安装仅列出在windows系统下的安装过程">2.Git安装（仅列出在Windows系统下的安装过程）</h2>
+<p>2.Git安装（仅列出在Windows系统下的安装过程）</p>
 <p>打开Git官网下载安装程序，然后按照默认选项安装即可。</p>
 <p>安装完成后，打开Git bash软件，弹出一个类似cmd的命令行窗口，证明安装成功。</p>
 <p>安装完成后，需要进行设置，在命令行输入以下代码：</p>
@@ -116,7 +100,7 @@ $ git config user.email
 <p>在用户主目录下找到 .git 文件夹：</p>
 <p>然后打开 config 文件，这是专门用来配置和读取相应的工作环境变量的，在里面加上如图所示内容：</p>
 <p>这样也就完成了对Git用户名和邮箱的配置。</p>
-<h2 id="3创建版本库">3.创建版本库</h2>
+<p>3.创建版本库</p>
 <p>版本库(repository)也叫仓库，可以看做一个目录，这个目录里的所以文件都由Git进行管理，每个文件的修改、删除，Git都能跟踪。</p>
 <p>1.选择一个合适的地方，创建一个空目录：</p>
 <pre><code>$ mkdir learngit //创建一个名叫learngit的空目录
@@ -144,7 +128,7 @@ Git is free software.
  1 file changed, 2 insertions(+) //1 file changed：1个文件被改动（新添加的readme.txt文件）；2 insertions：插入了两行内容（readme.txt内有两行内容）
  create mode 100644 readme.txt
 </code></pre>
-<h2 id="4修改文件">4.修改文件</h2>
+<p>4.修改文件</p>
 <p>我们已经成功添加并提交了一个 readme.txt 文件，继续修改 readme.txt 文件，改成如下内容：</p>
 <pre><code>Git is a distributed version control system.
 Git is free software.
@@ -193,7 +177,7 @@ Changes to be committed: //将要被提交的文件包括 readme.txt
 On branch master
 nothing to commit, working tree clean //当前没有需要提交的修改，而且，工作目录是干净的。
 </code></pre>
-<h2 id="5版本回退">5.版本回退</h2>
+<p>5.版本回退</p>
 <p>如果我们继续对 readme.txt 文件进行修改，改成如下内容：</p>
 <pre><code>Git is a distributed version control system.
 Git is free software distributed under the GPL.
@@ -250,7 +234,7 @@ Git is a distributed version control system.
 Git is free software distributed under the GPL.
 </code></pre>
 <p>果然，又回到了最新的版本。</p>
-<h2 id="6工作区和暂存区">6.工作区和暂存区</h2>
+<p>6.工作区和暂存区</p>
 <p>工作区（Working Directory）</p>
 <p>learngit 文件夹就是一个工作区。</p>
 <p>版本库（Repository）</p>
@@ -288,7 +272,7 @@ On branch master
 nothing to commit, working tree clean
 </code></pre>
 <p>这时候版本库就变成了这样：</p>
-<h2 id="7管理修改">7.管理修改</h2>
+<p>7.管理修改</p>
 <p>Git 如此的优秀是因为，Git 跟踪并管理的不是文件，而是修改。</p>
 <p>我们对 readme.txt 文件进行修改：</p>
 <pre><code>$ cat readme.txt
@@ -345,7 +329,7 @@ index 76d770f..a9c5755 100644
 -Git tracks changes.
 +Git tracks changes of files.
 </code></pre>
-<h2 id="8撤销修改">8.撤销修改</h2>
+<p>8.撤销修改</p>
 <p>假如说你在 readme.txt 文件中添加了一行内容如下：</p>
 <pre><code>$ cat readme.txt
 Git is a distributed version control system.
@@ -400,7 +384,7 @@ nothing to commit, working tree clean
 <p>终于大功告成了。</p>
 <p>(3) 既 git add 了，也 git commit 了</p>
 <p>可以回退到上一个版本，见回退版本内容。</p>
-<h2 id="9删除文件">9.删除文件</h2>
+<p>9.删除文件</p>
 <p>在工作区即 learngit 文件夹下新建一个 test.txt 文件，并添加和提交到Git：</p>
 <pre><code>$ git add test.txt
  
@@ -425,12 +409,12 @@ $ git commit -m &quot;remove test.txt&quot;
 <p>这时候文件就从版本库被删除了。</p>
 <p>(2) 文件被删错了。因为版本库里有，所以很好恢复：</p>
 <p>$ git checkout &ndash; test.txt //用版本库里的版本替换工作区的版本。</p>
-<h2 id="10远程仓库准备工作">10.远程仓库准备工作</h2>
+<p>10.远程仓库准备工作</p>
 <p>在开始这部分之前，我们需要自行注册GitHub账号。而且，因为你的本地Git仓库和GitHub仓库之间的传输是通过SSH加密的，所以需要设置：</p>
 <p>(1) 创建SSH Key。在用户主目录下，看看有没有.ssh 目录，如果有的话，看此目录下有没有 id_rsa 和 id_rsa.pub 这两个文件，如果有，直接跳到下一步。如果没有，打开Git Bash，创建SSH</p>
 <p>(2) 登陆GitHub，打开&quot;Account settings&quot;</p>
 <p>然后点击&quot;Add SSH and GPG Keys&quot;，再点击&quot;New SSH Key&quot;进行SSH Key 的创建，填上任意 Title ，把 id_rsa.pub 中的内容复制到Key文本框内：</p>
-<h2 id="11添加远程库">11.添加远程库</h2>
+<p>11.添加远程库</p>
 <p>现在我们已经在本地创建了一个Git仓库了，又想在GitHub上创建一个Git仓库，然后让这两个仓库进行远程同步，这样，GitHub上的仓库既可以作为备份，又可以让其他人通过该仓库来协作。那么我们应该怎么做呢？</p>
 <p>首先，登陆GitHub，在右上角找到“Create a new repo”按钮，创建一个新的仓库：</p>
 <p>在Repository name填入 learngit （因为我已经创建完成了，所以提示此用户名存在）其他保持默认设置，点击“Create repository”按钮，就成功地创建了一个新的Git仓库：</p>
@@ -455,7 +439,7 @@ Branch 'master' set up to track remote branch 'master' from 'origin'.
 <p>从现在起，只要本地作了提交，就可以通过命令：</p>
 <p>$ git push origin master</p>
 <p>把本地 master 分支的最新修改推送至GitHub。现在，我们拥有了真正的分布式版本库。</p>
-<h2 id="12从远程库克隆">12.从远程库克隆</h2>
+<p>12.从远程库克隆</p>
 <p>我们的学习过程是先有了本地库，后有了远程库，然后再对远程库进行关联。</p>
 <p>其实，我们大部分时候是先创建远程库，然后再从远程库克隆。</p>
 
@@ -475,46 +459,21 @@ Branch 'master' set up to track remote branch 'master' from 'origin'.
 
 
 
-<div class="article-categories">
-  <span></span>
-  
-  <a class="article-category-link" href="https://qianlong98.github.io/categories/%E6%8A%80%E6%9C%AF%E6%96%87%E7%AB%A0-%E8%BD%AC%E8%BD%BD">技术文章-转载</a>
-  
-</div>
-
-
-
   <div class="article-share" id="share">
-    <div data-url="https://qianlong98.github.io/post/git%E4%BD%BF%E7%94%A8%E6%95%99%E7%A8%8B/" data-title="git使用教程" data-tsina="1816308191" class="share clearfix">
+    <div data-url="https://qianlong98.github.io/post/blog/" data-title="git使用教程" data-tsina="1816308191" class="share clearfix">
     </div>
   </div>
 </footer>
 
 	</article>
   
-<section class="comment">
-  <div class="ds-thread" data-thread-key="https://qianlong98.github.io/post/git%E4%BD%BF%E7%94%A8%E6%95%99%E7%A8%8B/"
-   data-title="git使用教程" data-url="https://qianlong98.github.io/post/git%E4%BD%BF%E7%94%A8%E6%95%99%E7%A8%8B/"></div>
-</section>
-<script type="text/javascript">
-var duoshuoQuery = {short_name:"qianlong98"};
-(function() {
-  var ds = document.createElement('script');
-  ds.type = 'text/javascript';ds.async = true;
-  ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
-  ds.charset = 'UTF-8';
-  (document.getElementsByTagName('head')[0]
-  || document.getElementsByTagName('body')[0]).appendChild(ds);
-})();
-</script>
-
 
 
 <section class="comment">
 <div id="disqus_thread"></div>
 </section>
 <script>
-  
+  <!-- detect whether Disuqs can load -->
   var xhr = new XMLHttpRequest();
   xhr.open('GET', '//disqus.com/next/config.json?' + new Date().getTime(), true);
   xhr.timeout = 3000; 
@@ -523,8 +482,8 @@ var duoshuoQuery = {short_name:"qianlong98"};
 
 
 var disqus_config = function () {
-this.page.url = "https:\/\/qianlong98.github.io\/post\/git%E4%BD%BF%E7%94%A8%E6%95%99%E7%A8%8B\/"
-this.page.identifier = "https:\/\/qianlong98.github.io\/post\/git%E4%BD%BF%E7%94%A8%E6%95%99%E7%A8%8B\/"
+this.page.url = "https://qianlong98.github.io/post/blog/";
+this.page.identifier = "https://qianlong98.github.io/post/blog/";
 };
 (function() { 
 var d = document, s = d.createElement('script');
@@ -536,7 +495,7 @@ s.setAttribute('data-timestamp', +new Date());
 })();
 }
   xhr.ontimeout = function() {
-  
+  <!-- cannot load Disqus, skip it. -->
   return;
 }
 xhr.send(null);
@@ -552,19 +511,6 @@ xhr.send(null);
 <aside class="clearfix">
   
 
-<div class="categorieslist">
-  <p class="asidetitle">分类</p>
-  <ul>
-    
-    <li><a href="https://qianlong98.github.io/categories/%e4%b8%aa%e4%ba%ba%e5%ad%a6%e4%b9%a0%e7%ac%94%e8%ae%b0" title="个人学习笔记">个人学习笔记<sup>1</sup></a></li>
-    
-    <li><a href="https://qianlong98.github.io/categories/%e6%8a%80%e6%9c%af%e6%96%87%e7%ab%a0-%e5%8e%9f%e5%88%9b" title="技术文章-原创">技术文章-原创<sup>1</sup></a></li>
-    
-    <li><a href="https://qianlong98.github.io/categories/%e6%8a%80%e6%9c%af%e6%96%87%e7%ab%a0-%e8%bd%ac%e8%bd%bd" title="技术文章-转载">技术文章-转载<sup>1</sup></a></li>
-    
-  </ul>
-</div>
-
 
 
   
@@ -573,13 +519,11 @@ xhr.send(null);
 	<p class="asidetitle">标签</p>
 		<ul class="clearfix">
       
-			<li><a href="https://qianlong98.github.io/tags/blog" title="blog">blog<sup>1</sup></a></li>
-      
 			<li><a href="https://qianlong98.github.io/tags/git" title="git">git<sup>1</sup></a></li>
       
-			<li><a href="https://qianlong98.github.io/tags/hibernate" title="hibernate">hibernate<sup>1</sup></a></li>
+			<li><a href="https://qianlong98.github.io/tags/life" title="life">life<sup>1</sup></a></li>
       
-			<li><a href="https://qianlong98.github.io/tags/%e6%95%b0%e6%8d%ae%e5%ba%93" title="数据库">数据库<sup>1</sup></a></li>
+			<li><a href="https://qianlong98.github.io/tags/task" title="task">task<sup>1</sup></a></li>
       
 		</ul>
 </div>
@@ -593,12 +537,7 @@ xhr.send(null);
       
       
       <li class="archive-list-item">
-        <a class="archive-list-link" href="https://qianlong98.github.io/post/#2020-10">2020年10月</a><span class="archive-list-count">1</span>
-      </li>
-      
-      
-      <li class="archive-list-item">
-        <a class="archive-list-link" href="https://qianlong98.github.io/post/#2020-09">2020年09月</a><span class="archive-list-count">2</span>
+        <a class="archive-list-link" href="https://qianlong98.github.io/post/#2020-09">2020年09月</a><span class="archive-list-count">3</span>
       </li>
       
     </ul>
@@ -612,13 +551,11 @@ xhr.send(null);
   <p class="asidetitle">标签云</p>
   <div class="tagcloudlist clearfix">
     
-    <a href="https://qianlong98.github.io/tags/blog" style="font-size: 12px;">blog</a>
-    
     <a href="https://qianlong98.github.io/tags/git" style="font-size: 12px;">git</a>
     
-    <a href="https://qianlong98.github.io/tags/hibernate" style="font-size: 12px;">hibernate</a>
+    <a href="https://qianlong98.github.io/tags/life" style="font-size: 12px;">life</a>
     
-    <a href="https://qianlong98.github.io/tags/%e6%95%b0%e6%8d%ae%e5%ba%93" style="font-size: 12px;">数据库</a>
+    <a href="https://qianlong98.github.io/tags/task" style="font-size: 12px;">task</a>
     
   </div>
 </div>
@@ -638,18 +575,18 @@ xhr.send(null);
     <div style='background:no-repeat url("https://qianlong98.github.io/img/author.jpg") left top;-webkit-background-size:6.875em 6.875em;-moz-background-size:6.875em 6.875em;background-size:6.875em 6.875em;' class="author" ></div>
   </div>
   <section class="info">
-    <p>书山有路勤为径 <br/> 学海无涯苦作舟</p>
+    <p>Introduce1 <br/> Introduce2</p>
   </section>
   <div class="social-font clearfix">
     <a href='http://weibo.com/qianlong98' target="_blank" title="weibo"></a>
-    
+    <a href='https://twitter.com/qianlong98' target="_blank" title="twitter"></a>
     <a href='https://github.com/qianlong98' target="_blank" title="github"></a>
-    
-  
+    <a href='https://www.facebook.com/qianlong98' target="_blank" title="facebook"></a>
+    <a href='https://www.linkedin.com/qianlong98' target="_blank" title="linkedin"></a>
   </div>
-  <p class="copyright">Powered by <a href="http://gohugo.io" target="_blank" title="hugo">hugo</a> and Name by <a href="https://weibo.com/u/6969049127?refer_flag=1005050005_&is_all=1" target="_blank" title="花生帆">花生帆小姐姐</a> © 2020
+  <p class="copyright">Powered by <a href="http://gohugo.io" target="_blank" title="hugo">hugo</a> and Theme by <a href="https://github.com/coderzh/hugo-pacman-theme" target="_blank" title="hugo-pacman-theme">hugo-pacman-theme</a> © 2020
     
-    <a href="https://qianlong98.github.io/" title="代码L">代码L</a>
+    <a href="https://qianlong98.github.io/" title="小白初来">小白初来</a>
     
   </p>
 </div>
@@ -750,11 +687,11 @@ $(document).ready(function(){
       tsina = $this.attr('data-tsina');
   var html = [
   '<a href="#" class="overlay" id="qrcode"></a>',
-  '<div class="qrcode clearfix"><span>扫描二维码分享到微信朋友圈</span><a class="qrclose" href="#share"></a><strong>Loading...Please wait</strong><img id="qrcode-pic" data-src="https://b.bshare.cn/barCode?site=weixin&url=' + encodedUrl + '"/></div>',
+  '<div class="qrcode clearfix"><span>扫描二维码分享到微信朋友圈</span><a class="qrclose" href="#share"></a><strong>Loading...Please wait</strong><img id="qrcode-pic" data-src="http://b.bshare.cn/barCode?site=weixin&url=' + encodedUrl + '"/></div>',
   '<a href="#textlogo" class="article-back-to-top" title="Top"></a>',
-  
+  '<a href="https://www.facebook.com/sharer.php?u=' + encodedUrl + '" class="article-share-facebook" target="_blank" title="Facebook"></a>',
   '<a href="#qrcode" class="article-share-qrcode" title="QRcode"></a>',
-  
+  '<a href="https://twitter.com/intent/tweet?url=' + encodedUrl + '" class="article-share-twitter" target="_blank" title="Twitter"></a>',
   '<a href="http://service.weibo.com/share/share.php?title='+title+'&url='+encodedUrl +'&ralateUid='+ tsina +'&searchPic=true&style=number' +'" class="article-share-weibo" target="_blank" title="Weibo"></a>',
   '<span title="Share to"></span>'
   ].join('');
