@@ -2,35 +2,35 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on 代码L</title>
-    <link>https://qianlong98.github.io/post/</link>
+    <link>https:qianlong98.github.io/post/</link>
     <description>Recent content in Posts on 代码L</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Sat, 10 Oct 2020 14:24:32 +0800</lastBuildDate><atom:link href="https://qianlong98.github.io/post/feed.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 10 Oct 2020 14:24:32 +0800</lastBuildDate><atom:link href="https:qianlong98.github.io/post/feed.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Hibernate—_操作数据库</title>
-      <link>https://qianlong98.github.io/post/hibernate_%E6%93%8D%E4%BD%9C%E6%95%B0%E6%8D%AE%E5%BA%93/</link>
+      <title>Hibernate-操作数据库</title>
+      <link>https:qianlong98.github.io/post/hibernate_%E6%93%8D%E4%BD%9C%E6%95%B0%E6%8D%AE%E5%BA%93/</link>
       <pubDate>Sat, 10 Oct 2020 14:24:32 +0800</pubDate>
       
-      <guid>https://qianlong98.github.io/post/hibernate_%E6%93%8D%E4%BD%9C%E6%95%B0%E6%8D%AE%E5%BA%93/</guid>
+      <guid>https:qianlong98.github.io/post/hibernate_%E6%93%8D%E4%BD%9C%E6%95%B0%E6%8D%AE%E5%BA%93/</guid>
       <description>写在前面 今天学习了Hibernate操作数据库的步骤，特写此笔记巩固学习成果，加深记忆。 首先 在数据库中创建表，写好Pojo类，用： @Entity @Table(name=&amp;#34;students&amp;#34;) 创建好</description>
     </item>
     
     <item>
       <title>windows从零搭建hugo博客</title>
-      <link>https://qianlong98.github.io/post/windows%E4%BB%8E%E9%9B%B6%E6%90%AD%E5%BB%BAhugo%E5%8D%9A%E5%AE%A2/</link>
+      <link>https:qianlong98.github.io/post/windows%E4%BB%8E%E9%9B%B6%E6%90%AD%E5%BB%BAhugo%E5%8D%9A%E5%AE%A2/</link>
       <pubDate>Sat, 26 Sep 2020 22:13:37 +0800</pubDate>
       
-      <guid>https://qianlong98.github.io/post/windows%E4%BB%8E%E9%9B%B6%E6%90%AD%E5%BB%BAhugo%E5%8D%9A%E5%AE%A2/</guid>
+      <guid>https:qianlong98.github.io/post/windows%E4%BB%8E%E9%9B%B6%E6%90%AD%E5%BB%BAhugo%E5%8D%9A%E5%AE%A2/</guid>
       <description>写在前面的话 作为一个计算机专业的学生，平时没有好好学习，可又没想过转专业，听说程序员和博客很配，我早就想过搭建一个个人博客了，可是直到大四我</description>
     </item>
     
     <item>
       <title>git使用教程</title>
-      <link>https://qianlong98.github.io/post/git%E4%BD%BF%E7%94%A8%E6%95%99%E7%A8%8B/</link>
+      <link>https:qianlong98.github.io/post/git%E4%BD%BF%E7%94%A8%E6%95%99%E7%A8%8B/</link>
       <pubDate>Tue, 22 Sep 2020 10:35:41 +0800</pubDate>
       
-      <guid>https://qianlong98.github.io/post/git%E4%BD%BF%E7%94%A8%E6%95%99%E7%A8%8B/</guid>
+      <guid>https:qianlong98.github.io/post/git%E4%BD%BF%E7%94%A8%E6%95%99%E7%A8%8B/</guid>
       <description>1.Git简介 git是目前世界上最先进的分布式版本控制系统，在处理各种项目时都十分高效，而且非常的高大上。 SVN是集中式版本控制系统，版本库</description>
     </item>
     
