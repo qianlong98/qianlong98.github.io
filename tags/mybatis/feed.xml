@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>MyBatis on 代码L</title>
+    <link>https://qianlong98.github.io/tags/mybatis/</link>
+    <description>Recent content in MyBatis on 代码L</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-CN</language>
+    <lastBuildDate>Wed, 09 Dec 2020 16:00:25 +0800</lastBuildDate><atom:link href="https://qianlong98.github.io/tags/mybatis/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>MyBatis学习</title>
+      <link>https://qianlong98.github.io/post/mybatis%E5%AD%A6%E4%B9%A0/</link>
+      <pubDate>Wed, 09 Dec 2020 16:00:25 +0800</pubDate>
+      
+      <guid>https://qianlong98.github.io/post/mybatis%E5%AD%A6%E4%B9%A0/</guid>
+      <description>一、MyBatis简介 0、MyBatis官方中文文档 1、MyBatis 和数据库进行交互 持久化层框架（SQL映射框架） 半自动框架 前身是iBat</description>
+    </item>
+    
+  </channel>
+</rss>

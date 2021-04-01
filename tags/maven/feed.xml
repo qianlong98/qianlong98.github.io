@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Maven on 代码L</title>
+    <link>https://qianlong98.github.io/tags/maven/</link>
+    <description>Recent content in Maven on 代码L</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-CN</language>
+    <lastBuildDate>Fri, 13 Nov 2020 16:53:43 +0800</lastBuildDate><atom:link href="https://qianlong98.github.io/tags/maven/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Maven学习</title>
+      <link>https://qianlong98.github.io/post/%E8%87%AA%E5%8A%A8%E5%8C%96%E6%9E%84%E5%BB%BA%E5%B7%A5%E5%85%B7maven/</link>
+      <pubDate>Fri, 13 Nov 2020 16:53:43 +0800</pubDate>
+      
+      <guid>https://qianlong98.github.io/post/%E8%87%AA%E5%8A%A8%E5%8C%96%E6%9E%84%E5%BB%BA%E5%B7%A5%E5%85%B7maven/</guid>
+      <description>==自动化构建工具Maven== ==构建==： 以我们编写的Java代码、框架配置文件、国际化等其他资源文件、JSP页面和图片等静态资源作为“</description>
+    </item>
+    
+  </channel>
+</rss>

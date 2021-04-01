@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Spring on 代码L</title>
+    <link>https://qianlong98.github.io/tags/spring/</link>
+    <description>Recent content in Spring on 代码L</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-CN</language>
+    <lastBuildDate>Sun, 22 Nov 2020 16:53:43 +0800</lastBuildDate><atom:link href="https://qianlong98.github.io/tags/spring/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Spring5框架学习</title>
+      <link>https://qianlong98.github.io/post/spring%E5%AD%A6%E4%B9%A0/</link>
+      <pubDate>Sun, 22 Nov 2020 16:53:43 +0800</pubDate>
+      
+      <guid>https://qianlong98.github.io/post/spring%E5%AD%A6%E4%B9%A0/</guid>
+      <description>[TOC] Spring5框架 一、Spring框架概述 Spring是轻量级的开源的JavaEE框架 Spring可以解决企业应用开发的复杂性 Spring</description>
+    </item>
+    
+  </channel>
+</rss>

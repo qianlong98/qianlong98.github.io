@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>javaScript on 代码L</title>
+    <link>https://qianlong98.github.io/tags/javascript/</link>
+    <description>Recent content in javaScript on 代码L</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-CN</language>
+    <lastBuildDate>Mon, 19 Oct 2020 16:53:43 +0800</lastBuildDate><atom:link href="https://qianlong98.github.io/tags/javascript/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Web前端学习</title>
+      <link>https://qianlong98.github.io/post/web%E5%89%8D%E7%AB%AF%E5%AD%A6%E4%B9%A0/</link>
+      <pubDate>Mon, 19 Oct 2020 16:53:43 +0800</pubDate>
+      
+      <guid>https://qianlong98.github.io/post/web%E5%89%8D%E7%AB%AF%E5%AD%A6%E4%B9%A0/</guid>
+      <description>前言 我现在要且必要学习一下js知识，学习笔记必不可少，在这里，我将写下我学习遇到的重难点以及一些bug和自己犯得错误（主要是自己犯得低级错误</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Spring MVC on 代码L</title>
+    <link>https://qianlong98.github.io/tags/spring-mvc/</link>
+    <description>Recent content in Spring MVC on 代码L</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-CN</language>
+    <lastBuildDate>Mon, 23 Nov 2020 14:39:25 +0800</lastBuildDate><atom:link href="https://qianlong98.github.io/tags/spring-mvc/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Spring MVC学习</title>
+      <link>https://qianlong98.github.io/post/spring-mvc%E5%AD%A6%E4%B9%A0/</link>
+      <pubDate>Mon, 23 Nov 2020 14:39:25 +0800</pubDate>
+      
+      <guid>https://qianlong98.github.io/post/spring-mvc%E5%AD%A6%E4%B9%A0/</guid>
+      <description>自学导航 idea版+黑马程序员学习视频 笔记源码资料： 链接：https://pan.baidu.com/s/1hcgH_mkHJYuQQcM3</description>
+    </item>
+    
+  </channel>
+</rss>
