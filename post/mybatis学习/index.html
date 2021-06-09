@@ -76,7 +76,7 @@
   </h1>
   <p class="article-author">By
     
-      <a href="https://qianlong98.github.io/post/" title="代码L">代码L</a>
+      <a href="https://qianlong98.github.io/post/" title="萤火">萤火</a>
     
   </p>
   <p class="article-time">
@@ -85,176 +85,6 @@
 </header>
 
 	<div class="article-content">
-    
-		<div class="toc-article">
-			<strong class="toc-title">文章目录</strong>
-      <nav id="TableOfContents">
-  <ul>
-    <li><a href="#0mybatis官方中文文档httpsmybatisorgmybatis-3zhindexhtml"><a href="https://mybatis.org/mybatis-3/zh/index.html">0、MyBatis官方中文文档</a></a></li>
-    <li><a href="#1mybatis">1、MyBatis</a></li>
-    <li><a href="#2持久化层技术">2、持久化层技术</a>
-      <ul>
-        <li><a href="#不用原生jdbc原因">不用原生JDBC原因</a></li>
-      </ul>
-    </li>
-    <li><a href="#3hibernate">3、Hibernate</a>
-      <ul>
-        <li><a href="#1优点">1.优点</a></li>
-        <li><a href="#2缺点">2.缺点</a></li>
-      </ul>
-    </li>
-    <li><a href="#4mybatis应运而生">4、MyBatis应运而生</a></li>
-  </ul>
-
-  <ul>
-    <li><a href="#1环境搭建">1、环境搭建</a>
-      <ul>
-        <li><a href="#1创建一个java工程">1.创建一个java工程</a></li>
-        <li><a href="#2创建测试库">2.创建测试库</a></li>
-        <li><a href="#3用mybatis操作数据库">3.用MyBatis操作数据库</a></li>
-        <li><a href="#4总体架构image-20201220213612329httpsilolinet20201220qjw3nxr6balyumopng">4、总体架构：<img src="https://i.loli.net/2020/12/20/Qjw3NxR6balyumO.png" alt="image-20201220213612329"></a></li>
-        <li><a href="#5mybatis-configxml">5、mybatis-config.xml</a></li>
-        <li><a href="#6log4jxml">6、log4j.xml</a></li>
-        <li><a href="#7employeedaoxml">7、EmployeeDao.xml</a></li>
-        <li><a href="#8mybatistestjava">8、MyBatisTest.java</a></li>
-        <li><a href="#9employeedaojava">9、EmployeeDao.java</a></li>
-        <li><a href="#10employeejava">10、Employee.java</a></li>
-      </ul>
-    </li>
-    <li><a href="#2如何写xml有提示">2、如何写xml有提示</a>
-      <ul>
-        <li><a href="#让eclipse找到dtd约束文件的位置">让eclipse找到dtd约束文件的位置</a></li>
-      </ul>
-    </li>
-    <li><a href="#3细节">3、细节</a>
-      <ul>
-        <li><a href="#1获取到的是接口的代理对象">1.获取到的是接口的代理对象</a></li>
-        <li><a href="#2sqlsessionfactory和sqlsession">2.SqlSessionFactory和SqlSession</a></li>
-      </ul>
-    </li>
-  </ul>
-
-  <ul>
-    <li><a href="#1mybatis-configxml5mybatis-configxml">1、<a href="#5%E3%80%81mybatis-config.xml">mybatis-config.xml</a></a></li>
-    <li><a href="#2配置文档的顶层结构">2、配置文档的顶层结构</a></li>
-    <li><a href="#3原生jdbc执行sql">3、原生jdbc执行sql</a></li>
-    <li><a href="#4增删改查测试">4、增删改查测试</a>
-      <ul>
-        <li><a href="#1employeedaojava">1.EmployeeDao.java</a></li>
-        <li><a href="#2employeedaoxml">2.EmployeeDao.xml</a></li>
-        <li><a href="#3mybatiscrudtestjava">3.MyBatisCRUDTest.java</a></li>
-      </ul>
-    </li>
-    <li><a href="#5mybatis_config工程">5、MyBatis_config工程</a>
-      <ul>
-        <li><a href="#1总体架构image-20201220225300510httpsilolinet20201220a5xilhbc2ymfttrpng">1.总体架构：<img src="https://i.loli.net/2020/12/20/a5xiLHBC2YmftTR.png" alt="image-20201220225300510"></a></li>
-        <li><a href="#2mybatis-configxml">2.mybatis-config.xml</a></li>
-        <li><a href="#3dbconfigproperties">3.dbconfig.properties</a></li>
-        <li><a href="#4mybatiscrudtestjava">4.MyBatisCRUDTest.java</a></li>
-        <li><a href="#5employeedaoannotationjava">5.EmployeeDaoAnnotation.java</a></li>
-      </ul>
-    </li>
-  </ul>
-
-  <ul>
-    <li><a href="#1增删改元素">1、增删改元素</a></li>
-    <li><a href="#2各种配置3mybatis_sqlmapper"><a href="#3%E3%80%81MyBatis_sqlMapper">2、各种配置</a></a></li>
-    <li><a href="#3mybatis_sqlmapper">3、MyBatis_sqlMapper</a>
-      <ul>
-        <li><a href="#1总体架构snipaste_2020-12-21_08-45-46httpsilolinet20201221qj9b1az4emxpvf5png">1.总体架构：<img src="https://i.loli.net/2020/12/21/qj9b1az4emXPvf5.png" alt="Snipaste_2020-12-21_08-45-46"></a></li>
-        <li><a href="#2bean">2.bean</a></li>
-        <li><a href="#3dao">3.dao</a></li>
-        <li><a href="#4daoxml">4.dao.xml</a></li>
-        <li><a href="#5mybatis-configxml-1">5.mybatis-config.xml</a></li>
-        <li><a href="#6mybatistestjava">6、MyBatisTest.java</a></li>
-      </ul>
-    </li>
-  </ul>
-
-  <ul>
-    <li><a href="#1总体架构image-20201221091302369httpsilolinet20201221q7axv8hki2jlmnopng">1、总体架构：<img src="https://i.loli.net/2020/12/21/q7axv8Hki2JLmNO.png" alt="image-20201221091302369"></a></li>
-    <li><a href="#2bean-1">2、bean</a></li>
-    <li><a href="#3dao-1">3、dao</a></li>
-    <li><a href="#4daoxml-1">4、dao.xml</a></li>
-    <li><a href="#5mybatis-configxml-2">5、mybatis-config.xml</a></li>
-    <li><a href="#6mybatistestjava-1">6、MyBatisTest.java</a></li>
-  </ul>
-
-  <ul>
-    <li><a href="#1缓存作用">1、缓存作用</a></li>
-    <li><a href="#2mybatis缓存机制">2、MyBatis缓存机制</a></li>
-    <li><a href="#3一级缓存">3、一级缓存</a>
-      <ul>
-        <li><a href="#一级缓存失效的几种情况">一级缓存失效的几种情况</a></li>
-        <li><a href="#源码位置">源码位置</a></li>
-      </ul>
-    </li>
-    <li><a href="#4二级缓存">4、二级缓存</a>
-      <ul>
-        <li><a href="#1二级缓存的使用">1.二级缓存的使用</a></li>
-        <li><a href="#2缓存原理">2.缓存原理</a></li>
-      </ul>
-    </li>
-    <li><a href="#5缓存有关设置">5、缓存有关设置</a>
-      <ul>
-        <li><a href="#1全局setting的cacheenable">1.全局setting的cacheEnable</a></li>
-        <li><a href="#2select标签的usecache属性">2.select标签的useCache属性</a></li>
-        <li><a href="#3sql标签的flushcache属性">3.sql标签的flushCache属性</a></li>
-        <li><a href="#4sqlsessionclearcache">4.sqlSession.clearCache()</a></li>
-      </ul>
-    </li>
-    <li><a href="#6整合第三方缓存">6、整合第三方缓存</a>
-      <ul>
-        <li><a href="#1导包">1.导包</a></li>
-        <li><a href="#2ehcache配置文件">2.ehcache配置文件</a></li>
-        <li><a href="#3在mapperxml中配置使用自定义的缓存">3.在mapper.xml中配置使用自定义的缓存</a></li>
-        <li><a href="#4别的dao还要用这个缓存">4.别的dao还要用这个缓存</a></li>
-        <li><a href="#5echcachexml">5.echcache.xml</a></li>
-        <li><a href="#6mybatistestjava-2">6.MyBatisTest.java</a></li>
-      </ul>
-    </li>
-  </ul>
-
-  <ul>
-    <li><a href="#1导包-1">1、导包</a>
-      <ul>
-        <li><a href="#1spring">1.Spring</a></li>
-        <li><a href="#2springmvc">2.SpringMVC</a></li>
-        <li><a href="#3mybatis">3.MyBatis</a></li>
-        <li><a href="#4其他的">4.其他的</a></li>
-        <li><a href="#5总览image-20201221101143992httpsilolinet202012218p1x24gnhdconf3png">5.总览：<img src="https://i.loli.net/2020/12/21/8P1X24gnHdcoNf3.png" alt="image-20201221101143992"></a></li>
-      </ul>
-    </li>
-    <li><a href="#2写配置-1">2、写配置</a>
-      <ul>
-        <li><a href="#0webxml">0.web.xml</a></li>
-        <li><a href="#1spring的配置">1.spring的配置</a></li>
-        <li><a href="#2springmvc的配置">2.springmvc的配置</a></li>
-        <li><a href="#3mybatis的配置">3.mybatis的配置</a></li>
-      </ul>
-    </li>
-    <li><a href="#3测试分页功能">3、测试（分页功能）</a>
-      <ul>
-        <li><a href="#1controller">1.controller</a></li>
-        <li><a href="#2successjsp">2.success.jsp</a></li>
-      </ul>
-    </li>
-    <li><a href="#4工程结构image-20201221134106225httpsilolinet20201221we1bhfmy5ginyp7png">4、工程结构：<img src="https://i.loli.net/2020/12/21/WE1bhfmy5GInYp7.png" alt="image-20201221134106225"></a></li>
-  </ul>
-
-  <ul>
-    <li><a href="#1正向">1、正向</a></li>
-    <li><a href="#2逆向工程">2、逆向工程</a></li>
-    <li><a href="#3配置步骤">3、配置步骤</a>
-      <ul>
-        <li><a href="#1导包-2">1.导包</a></li>
-        <li><a href="#2配置">2.配置</a></li>
-        <li><a href="#3mbg生成代码">3.mbg生成代码</a></li>
-      </ul>
-    </li>
-  </ul>
-</nav>
-		</div>
     
     <hr>
 <h1 id="一mybatis简介">一、MyBatis简介</h1>
@@ -321,7 +151,7 @@
 <li>全映射框架（做部分字段映射很难）</li>
 </ol>
 <hr>
-<p>==希望==</p>
+<p><strong>希望</strong></p>
 <ul>
 <li>最好有一个框架
 <ul>
@@ -448,7 +278,8 @@
 </li>
 </ol>
 <hr>
-<h3 id="4总体架构image-20201220213612329httpsilolinet20201220qjw3nxr6balyumopng">4、总体架构：<img src="https://i.loli.net/2020/12/20/Qjw3NxR6balyumO.png" alt="image-20201220213612329"></h3>
+<h3 id="4总体架构">4、总体架构：</h3>
+<p><img src="https://i.loli.net/2020/12/20/Qjw3NxR6balyumO.png" alt="image-20201220213612329"></p>
 <hr>
 <h3 id="5mybatis-configxml">5、mybatis-config.xml</h3>
 <div class="highlight"><pre class="chroma"><code class="language-xml" data-lang="xml"><span class="cp">&lt;?xml version=&#34;1.0&#34; encoding=&#34;UTF-8&#34; ?&gt;</span>
@@ -897,7 +728,8 @@
 <ul>
 <li>==注解配置配合使用==（<strong>重要的dao写配置，简单的dao就直接标注解</strong>）</li>
 </ul>
-<h3 id="1总体架构image-20201220225300510httpsilolinet20201220a5xilhbc2ymfttrpng">1.总体架构：<img src="https://i.loli.net/2020/12/20/a5xiLHBC2YmftTR.png" alt="image-20201220225300510"></h3>
+<h3 id="1总体架构">1.总体架构：</h3>
+<p><img src="https://i.loli.net/2020/12/20/a5xiLHBC2YmftTR.png" alt="image-20201220225300510"></p>
 <hr>
 <h3 id="2mybatis-configxml">2.mybatis-config.xml</h3>
 <div class="highlight"><pre class="chroma"><code class="language-xml" data-lang="xml"><span class="cp">&lt;?xml version=&#34;1.0&#34; encoding=&#34;UTF-8&#34; ?&gt;</span>
@@ -1142,7 +974,8 @@ driverclass=com.mysql.cj.jdbc.Driver
 <hr>
 <h2 id="2各种配置3mybatis_sqlmapper"><a href="#3%E3%80%81MyBatis_sqlMapper">2、各种配置</a></h2>
 <h2 id="3mybatis_sqlmapper">3、MyBatis_sqlMapper</h2>
-<h3 id="1总体架构snipaste_2020-12-21_08-45-46httpsilolinet20201221qj9b1az4emxpvf5png">1.总体架构：<img src="https://i.loli.net/2020/12/21/qj9b1az4emXPvf5.png" alt="Snipaste_2020-12-21_08-45-46"></h3>
+<h3 id="1总体架构-1">1.总体架构：</h3>
+<p><img src="https://i.loli.net/2020/12/21/qj9b1az4emXPvf5.png" alt="Snipaste_2020-12-21_08-45-46"></p>
 <hr>
 <h3 id="2bean">2.bean</h3>
 <div class="highlight"><pre class="chroma"><code class="language-java" data-lang="java"><span class="kn">package</span> <span class="nn">com.lql.bean</span><span class="o">;</span>
@@ -2064,7 +1897,8 @@ driverclass=com.mysql.cj.jdbc.Driver
 </code></pre></div><hr>
 <hr>
 <h1 id="五动态sql">五、动态sql</h1>
-<h2 id="1总体架构image-20201221091302369httpsilolinet20201221q7axv8hki2jlmnopng">1、总体架构：<img src="https://i.loli.net/2020/12/21/q7axv8Hki2JLmNO.png" alt="image-20201221091302369"></h2>
+<h2 id="1总体架构-2">1、总体架构：</h2>
+<p><img src="https://i.loli.net/2020/12/21/q7axv8Hki2JLmNO.png" alt="image-20201221091302369"></p>
 <h2 id="2bean-1">2、bean</h2>
 <div class="highlight"><pre class="chroma"><code class="language-java" data-lang="java"><span class="kn">package</span> <span class="nn">com.lql.bean</span><span class="o">;</span>
 
@@ -2809,7 +2643,8 @@ slf4j-log4j12-1.7.30.jar</p>
 </span><span class="c1"></span><span class="n">pagehelper</span><span class="o">-</span><span class="n">5</span><span class="o">.</span><span class="na">2</span><span class="o">.</span><span class="na">0</span><span class="o">.</span><span class="na">jar</span>
 <span class="n">jsqlparser</span><span class="o">-</span><span class="n">3</span><span class="o">.</span><span class="na">2</span><span class="o">.</span><span class="na">jar</span>
 </code></pre></div><hr>
-<h3 id="5总览image-20201221101143992httpsilolinet202012218p1x24gnhdconf3png">5.总览：<img src="https://i.loli.net/2020/12/21/8P1X24gnHdcoNf3.png" alt="image-20201221101143992"></h3>
+<h3 id="5总览">5.总览：</h3>
+<p><img src="https://i.loli.net/2020/12/21/8P1X24gnHdcoNf3.png" alt="image-20201221101143992"></p>
 <hr>
 <h2 id="2写配置-1">2、写配置</h2>
 <h3 id="0webxml">0.web.xml</h3>
@@ -3146,7 +2981,8 @@ ${teacher }
 &lt;/body&gt;
 &lt;/html&gt;
 </code></pre><hr>
-<h2 id="4工程结构image-20201221134106225httpsilolinet20201221we1bhfmy5ginyp7png">4、工程结构：<img src="https://i.loli.net/2020/12/21/WE1bhfmy5GInYp7.png" alt="image-20201221134106225"></h2>
+<h2 id="4工程结构">4、工程结构：</h2>
+<p><img src="https://i.loli.net/2020/12/21/WE1bhfmy5GInYp7.png" alt="image-20201221134106225"></p>
 <hr>
 <h1 id="八mbg">八、MBG</h1>
 <ul>
@@ -3416,11 +3252,6 @@ xhr.send(null);
         <a class="archive-list-link" href="https://qianlong98.github.io/post/#2020-09">2020年09月</a><span class="archive-list-count">2</span>
       </li>
       
-      
-      <li class="archive-list-item">
-        <a class="archive-list-link" href="https://qianlong98.github.io/post/#0001-01">0001年01月</a><span class="archive-list-count">1</span>
-      </li>
-      
     </ul>
 
   </div>
@@ -3491,6 +3322,7 @@ xhr.send(null);
     
   </p>
 </div>
+
 </footer>
   <script src="https://qianlong98.github.io/js/jquery-2.1.0.min.js"></script>
 

@@ -97,14 +97,5 @@
       <description>1.Git简介 git是目前世界上最先进的分布式版本控制系统，在处理各种项目时都十分高效，而且非常的高大上。 SVN是集中式版本控制系统，版本库</description>
     </item>
     
-    <item>
-      <title></title>
-      <link>https://qianlong98.github.io/post/spring-boot-%E5%AD%A6%E4%B9%A0/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://qianlong98.github.io/post/spring-boot-%E5%AD%A6%E4%B9%A0/</guid>
-      <description>一、Spring Boot 入门 1、Spring Boot 简介 简化Spring应用开发的一个框架； 整个Spring技术栈的一个大整合； J2EE开发的一站式解决</description>
-    </item>
-    
   </channel>
 </rss>
